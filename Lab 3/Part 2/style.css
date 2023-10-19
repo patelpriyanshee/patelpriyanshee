@@ -6,16 +6,17 @@ div {
   text-shadow: 1px 1px 1px black;
   margin: auto;
  
-  width: 200px;
-  height: 200px;
-  background-color: rgb(70, 63, 63); 
+  width: 300px;
+  height: 250px;
   margin: 80px auto;
-  border: 1px solid rgba(169, 20, 20);
+  border: 2px solid rgb(212, 45, 45);
   border-radius: 10px;
   box-shadow: 2px 3px 2px  rgba(254, 254, 255), inset -2px -2px 4px rgb(0, 0, 0);
+  
   color: #ffffff;
+  background-color: rgb(203, 27, 27); 
   font-size : 1.25rem;
-  line-height: 200px;
+  line-height: 250px;
 
 }
 /* Your CSS below here */
