@@ -104,7 +104,7 @@ h2{
    /* Link state */
 a {
   color: rgb(164, 79, 79); 
-  text-decoration: none; 
+  text-decoration: underline; 
 }
 
 /* Visited state */
