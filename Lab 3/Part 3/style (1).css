@@ -1,0 +1,91 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+/* FONT faces */
+
+@font-face {
+  font-family: 'open_sans';
+  src: url('opensans-extrabolditalic-webfont.woff2') format('woff2'),
+       url('opensans-extrabolditalic-webfont.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'open_sans';
+  src: url('opensans-italic-webfont.woff2') format('woff2'),
+       url('opensans-italic-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'open_sans';
+  src: url('opensans-light-webfont.woff2') format('woff2'),
+       url('opensans-light-webfont.woff') format('woff');
+  font-weight: lighter;
+  font-style: normal;
+
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+   font-family: 'open sans', sans-serif;
+  }
+
+h2{
+    font-size: 30px;
+    font-family: "open-sans", sans-serif;
+    font-weight: bold;
+   }
+  
+/* WRITE YOUR CODE BELOW HERE */
