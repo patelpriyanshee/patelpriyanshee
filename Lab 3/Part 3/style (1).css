@@ -100,5 +100,28 @@ h2{
     font-weight: bold;
     letter-spacing: 2px;
    }
+
+   /* Link state */
+a {
+  color: #a66; 
+  text-decoration: none; 
+}
+
+/* Visited state */
+a:visited {
+  color: #a66; 
+}
+
+/* Focus state */
+a:focus {
+  outline: none; 
+  color: #ff9966; 
+}
+
+/* Hover state */
+a:hover {
+  color: #ff9966; 
+}
+
   
 /* WRITE YOUR CODE BELOW HERE */
