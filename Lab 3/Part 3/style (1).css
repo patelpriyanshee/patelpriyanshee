@@ -103,24 +103,24 @@ h2{
 
    /* Link state */
 a {
-  color: #a66; 
+  color: rgb(164, 79, 79); 
   text-decoration: none; 
 }
 
 /* Visited state */
 a:visited {
-  color: #a66; 
+  color: rgb(207, 129, 129); 
 }
 
 /* Focus state */
 a:focus {
   outline: none; 
-  color: #ff9966; 
+  color: #c56d41; 
 }
 
 /* Hover state */
 a:hover {
-  color: #ff9966; 
+  color: #f7b08c; 
 }
 
   
